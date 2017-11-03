@@ -34,4 +34,12 @@ public abstract class AbstractDuck {
     }
 
     protected abstract void display();
+
+    public void setQuackBehavior(QuackBehavior quackBehavior){
+        this.quackBehavior = quackBehavior;
+    }
+
+    public void setFlyBehavior(FlyBehavior flyBehavior){
+        this.flyBehavior = flyBehavior;
+    }
 }

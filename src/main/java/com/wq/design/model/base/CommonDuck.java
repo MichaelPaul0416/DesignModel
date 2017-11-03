@@ -1,9 +1,6 @@
 package com.wq.design.model.base;
 
-import com.wq.design.model.base.attributes.DuckQuack;
-import com.wq.design.model.base.attributes.FlyBehavior;
-import com.wq.design.model.base.attributes.FlyWithWings;
-import com.wq.design.model.base.attributes.QuackBehavior;
+import com.wq.design.model.base.attributes.*;
 
 /**
  * @author: wangqiang20995
@@ -32,6 +29,10 @@ public class CommonDuck extends AbstractDuck{
         FlyBehavior flyBehavior = new FlyWithWings();
         QuackBehavior quackBehavior = new DuckQuack();
         AbstractDuck commonDuck = new CommonDuck(flyBehavior,quackBehavior);
+        commonDuck.display();
+        System.out.println("活的鸭子要更新了");
+        QuackBehavior modelDuckQuack = new ModelDuckQuack();
+        commonDuck.setQuackBehavior(modelDuckQuack);
         commonDuck.display();
     }
 }
