@@ -11,6 +11,7 @@ public class Coffee implements Drink {
     private String description;
 
     private int size;
+
     public Coffee(String description,int size){
         this.description = description;
         this.size = size;

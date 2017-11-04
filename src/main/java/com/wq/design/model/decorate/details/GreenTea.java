@@ -8,6 +8,7 @@ import com.wq.design.model.decorate.Drink;
  * @description:绿茶
  */
 public class GreenTea implements Drink {
+
     private String description;
 
     private int size;

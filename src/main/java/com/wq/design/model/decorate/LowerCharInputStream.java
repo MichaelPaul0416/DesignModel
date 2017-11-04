@@ -10,6 +10,7 @@ import java.io.InputStream;
  * @description:将读取到的字符串中，大写的转换为小写
  */
 public class LowerCharInputStream extends FilterInputStream {
+
     //调用父类的构造方法
     protected LowerCharInputStream(InputStream in) {
         super(in);

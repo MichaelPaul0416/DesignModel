@@ -6,6 +6,7 @@ package com.wq.design.model.decorate;
  * @description:装饰者的抽象
  */
 public interface Drink {
+
     int TALL = 1;
 
     int GRANDE = 2;

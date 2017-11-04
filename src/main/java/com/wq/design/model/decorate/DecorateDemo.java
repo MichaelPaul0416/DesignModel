@@ -17,6 +17,7 @@ import java.math.RoundingMode;
 public class DecorateDemo {
 
     public static void main(String args[]) throws IOException {
+
         Drink tea = new GreenTea("西湖龙井",Drink.GRANDE);
         tea = new Cup(tea);//先把饮料装进杯子
         tea = new MilkShake(tea);//一份奶昔

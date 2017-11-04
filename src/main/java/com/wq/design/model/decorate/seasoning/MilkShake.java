@@ -8,6 +8,7 @@ import com.wq.design.model.decorate.Drink;
  * @description:
  */
 public class MilkShake implements Drink {
+
     private Drink drink;
     private double price;
 
