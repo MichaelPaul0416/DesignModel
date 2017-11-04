@@ -16,7 +16,19 @@ public class Sugar implements Drink{
         this.price = 0.4;
     }
     public double cost() {
-        System.out.println("为饮料添加了一份糖，单价是【"+this.price+"】");
+        if(Drink.TALL == getSize()){
+            System.out.println("为饮料添加了小杯份量糖，单价是【"+this.price+"】");
+        }else if(Drink.GRANDE == getSize()){
+            System.out.println("为饮料添加了中杯份量糖，单价是【"+(this.price *= 1.2)+"】");
+        }else{
+            System.out.println("为饮料添加了大杯份量糖，单价是【"+(this.price *= 1.5)+"】");
+        }
+
         return drink.cost() + this.price;
+    }
+
+    @Override
+    public int getSize() {
+        return drink.getSize();
     }
 }
