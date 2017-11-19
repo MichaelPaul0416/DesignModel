@@ -1,4 +1,4 @@
-package com.wq.design.model.base.attributes;
+package com.wq.design.model.strategy.attributes;
 
 /**
  * @author: wangqiang20995

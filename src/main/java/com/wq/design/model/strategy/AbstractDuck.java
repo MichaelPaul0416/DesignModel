@@ -1,7 +1,7 @@
-package com.wq.design.model.base;
+package com.wq.design.model.strategy;
 
-import com.wq.design.model.base.attributes.FlyBehavior;
-import com.wq.design.model.base.attributes.QuackBehavior;
+import com.wq.design.model.strategy.attributes.FlyBehavior;
+import com.wq.design.model.strategy.attributes.QuackBehavior;
 
 /**
  * @author: wangqiang20995

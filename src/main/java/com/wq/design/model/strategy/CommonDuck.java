@@ -1,6 +1,6 @@
-package com.wq.design.model.base;
+package com.wq.design.model.strategy;
 
-import com.wq.design.model.base.attributes.*;
+import com.wq.design.model.strategy.attributes.*;
 
 /**
  * @author: wangqiang20995
