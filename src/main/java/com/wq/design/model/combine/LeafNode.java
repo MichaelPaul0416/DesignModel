@@ -26,7 +26,7 @@ public class LeafNode extends Node {
         return "LeafNode{" +
                 "nodeName='" + nodeName + '\'' +
                 ", value='" + value + '\'' +
-                "} " + super.toString();
+                "} ";
     }
 
     public String getNodeName() {
